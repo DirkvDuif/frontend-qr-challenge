@@ -1,0 +1,50 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+
+}
+
+.container {
+  width: 320px;
+  max-height: 497px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--primary-color);
+  border-radius: 20px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 256px;
+}
+
+.qr-code {
+  border-radius: 20px;
+  width: 288px;
+  height: 288px;
+}
+
+.title {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 27.72px;
+  color: var(--secondary-color);
+  text-align: center;
+}
+
+h2 {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18.9px;
+  letter-spacing: 0.19px;
+  color: #7D889E;
+}
